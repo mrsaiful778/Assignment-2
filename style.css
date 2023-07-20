@@ -1,0 +1,577 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main p {
+    color: #534C64;
+}
+
+.header-style {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    height: 100px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin: 0 200px;
+}
+
+.logo h2{
+    color: #0B0223;
+}
+
+#logo1 {
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.menu-section ul {
+    display: flex;
+    margin: -18px  118px;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.Follow {
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 180px;
+    height: 30px;
+    text-align: center;
+
+}
+
+.section-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+
+}
+.section-1{
+    background-image: url(./images/Group\ 14.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.section-bg p {
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.section-1 img {
+    width: 340px;
+    height: 350px;
+
+}
+
+.Paly-like {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0;
+
+}
+
+.Goat {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 4rem;
+    font-weight: 800;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.btn1 {
+    color: #FFF;
+    border-radius: 48px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    border: none;
+    padding: 21px 40px;
+    gap: 10px;
+}
+
+.btn2 {
+    color: #FFF;
+    border-radius: 48px;
+    background: #4EC5F7;
+    border: none;
+    padding: 21px 40px;
+    margin: 10px;
+
+}
+
+.section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%,
+            rgba(255, 66, 165, 0.03) 100%);
+
+}
+
+.gamer-section img {
+    width: 401px;
+    height: 261px;
+}
+
+.gamers {
+    text-align: right;
+    margin-right: 237px;
+}
+
+.gamer-section {
+    margin: 30px 200px;
+}
+
+.gamer-section img {
+    width: 350px;
+}
+
+.we-are-gamer {
+    font-size: 2rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gamers-description {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1rem;
+}
+
+.section-3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-3 h2 {
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0;
+
+}
+
+#Funny-Videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-3-img {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 30px 200px;
+
+}
+
+.section-3-img img {
+    width: 200px;
+    height: 200px;
+
+}
+
+.section-3-img p {
+    font-size: 16px;
+}
+
+.section-4 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px 200px;
+
+}
+
+#Play {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-4-description {
+    margin-bottom: 100px;
+}
+
+.section-4-description h2 {
+    font-size: 2rem;
+}
+
+.section-4 img {
+    width: 300px;
+    height: 400px;
+    margin-left: 20px;
+}
+
+.corner-img img {
+    width: 140px;
+    height: 150px;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.section-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 200px;
+    margin-top: 100px;
+
+
+}
+
+.section-5-img img {
+    width: 300px;
+    height: 400px;
+
+
+}
+
+.corner-img2 img {
+    width: 140px;
+    height: 150px;
+    margin-top: 30px;
+
+
+}
+
+.section-5-description {
+    text-align: center;
+}
+
+.section-5-description p {
+    font-size: 15px;
+}
+
+.section-6 {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #FFF;
+    margin: 20px;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+
+
+
+}
+
+.Careers {
+    width: 400px;
+    height: auto;
+}
+
+.Careers p {
+    color: #FFF;
+}
+
+.section-6-title {
+    margin: 30px 200px;
+
+}
+
+.section-6 img {
+    float: right;
+    width: 400px;
+    margin-left: 20px;
+    height: 500px;
+    margin: -20px 200px;
+}
+
+.careers-card-title {
+    display: flex;
+    gap: 40px;
+    color: #FFF;
+
+}
+
+.careers-card-title p {
+    color: #FFF;
+}
+
+.btn3 {
+    border-radius: 48px;
+    background: #FFF;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    color: #FF42A5;
+}
+
+.section-7 {
+    margin: 30px 200px;
+
+}
+
+.section-7 img {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.game-part-1 {
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+ 
+
+.game-part-2 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.game-part-1, .game-part-2 p:hover{
+    border: 2px solid pink;
+    border-radius: 20px;
+    
+}
+
+footer {
+    height: 400px;
+    background: #0B0223;
+    
+}
+
+.logo{
+    font-size: 2rem;
+    color: #FFF;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.logo h3{
+    color: #FFF;
+    text-align: center;
+}
+#logo {
+    color: pink;
+    
+}
+
+.footer-des {
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-section {
+    margin: 50px 200px;
+}
+
+.footer-social-site {
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer-condition {
+    font-family: Work Sans;
+    color: #FFF;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.copyright {
+    font-family: Work Sans;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .header-style
+    {
+        margin: 0;
+        flex-direction: column;
+        
+    }
+.menu-section ul li{
+    flex-direction: column;
+}
+.section-1{
+    flex-direction: column;
+    margin: 30%;
+}
+.section-1 img{
+    width:100%;
+
+}
+.section-2{
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+
+}
+
+.gamers{
+    text-align: center;
+    margin-right: 10px;
+}
+.section-3-img{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+.section-4,.section-5{
+    flex-direction: column;
+    margin: 0;
+}
+
+.section-6{
+    align-items: center;
+    margin: 0;
+}
+.section-6 img{
+    display: none;
+}
+
+.careers-card-title{
+    justify-content: center;
+}
+.Careers{
+    margin-left: -160px;
+    text-align: center;
+    width: 300px;
+}
+.game-part-1, .game-part-2{
+    flex-direction: column;
+}
+.footer-section{
+    margin: 0;
+    align-items: center;
+} 
+.logo{
+margin-right: 194px;
+
+
+}
+
+}
+
+
+
+@media screen and (max-width:576px) and (min-width: 960px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .header-style
+    {
+        margin: 0;
+        flex-direction: column;
+        
+    }
+.menu-section ul li{
+    flex-direction: column;
+}
+.section-1{
+    flex-direction: column;
+    margin: 30%;
+}
+.section-1 img{
+    width:100%;
+
+}
+.section-2{
+    flex-direction: column;
+    padding: 0;
+    margin-left: 0;
+
+}
+
+.gamers{
+    text-align: center;
+    margin-right: 10px;
+}
+.section-3-img{
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    margin: 100px;
+    padding: 20px;
+}
+.section-4,.section-5{
+    flex-direction: column;
+    margin: 0;
+}
+
+.section-6{
+    align-items: center;
+    margin: 0;
+}
+.section-6 img{
+    display: none;
+}
+
+.careers-card-title{
+    justify-content: center;
+}
+.Careers{
+    margin-left: -160px;
+    text-align: center;
+    width: 300px;
+}
+.game-part-1, .game-part-2{
+    flex-direction: column;
+}
+.footer-section{
+    margin: 0;
+    align-items: center;
+} 
+.logo{
+margin-right: 194px;
+
+
+}
+}
